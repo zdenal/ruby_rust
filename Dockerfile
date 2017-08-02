@@ -2,7 +2,7 @@ FROM ruby:2.3.0
 
 MAINTAINER Zdenko Nevrala <nevralaz@gmail.com>
 
-ENV RUST_ARCHIVE=rust-1.14.0-x86_64-unknown-linux-gnu.tar.gz
+ENV RUST_ARCHIVE=rust-1.19.0-x86_64-unknown-linux-gnu.tar.gz
 ENV RUST_DOWNLOAD_URL=https://static.rust-lang.org/dist/$RUST_ARCHIVE
 
 RUN mkdir /rust
